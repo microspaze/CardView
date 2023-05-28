@@ -12,13 +12,14 @@ namespace PanCardViewSample.Views
 
             var carousel = new CardCarouselView
             {
+                IsHorizontalOrientation = false,
                 HeightRequest = 200,
                 ItemsSource = new[] {
                     new BoxView { Color = Color.Red },
                     new BoxView { Color = Color.Blue},
                     new BoxView { Color = Color.Yellow}
                 },
-                IsCyclical = false
+                IsCyclical = true,
             };
 
             var button = new Button { Text = "Select last" };
