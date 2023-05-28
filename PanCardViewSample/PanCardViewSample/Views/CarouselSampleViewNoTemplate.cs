@@ -13,7 +13,7 @@ namespace PanCardViewSample.Views
             var carousel = new CardCarouselView
             {
                 IsHorizontalOrientation = false,
-                HeightRequest = 200,
+                HeightRequest = 500,
                 ItemsSource = new[] {
                     new BoxView { Color = Color.Red },
                     new BoxView { Color = Color.Blue},
